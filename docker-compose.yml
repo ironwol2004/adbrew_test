@@ -1,4 +1,3 @@
-version: '2'
 services:
   api:
     build: .
@@ -28,6 +27,10 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - ${ADBREW_CODEBASE_PATH}/db:/data/db
+      - mongodata:/data/db
+
+volumes:
+  mongodata:
+
 
     
