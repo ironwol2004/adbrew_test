@@ -2,3 +2,10 @@
 db/
 src/rest/rest/__pycache__/
 src/db
+src/tmp
+src/rest/rest/controller/__pycache__/
+src/rest/rest/repository/__pycache__/
+src/rest/rest/controller/requests/__pycache__/
+src/rest/rest/controller/responses/__pycache__/
+src/rest/rest/models/__pycache__/
+src/app/.eslintcache
